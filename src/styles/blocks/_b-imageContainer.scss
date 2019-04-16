@@ -1,0 +1,24 @@
+.imageContainer {
+    &_decor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        padding: 10px;
+    }
+
+    &__image {
+        width: 200px;
+    }
+
+    &__descr {
+        text-align: center;
+        padding: 10px;
+    }
+
+    &__button {
+        color: white;
+    }
+}
